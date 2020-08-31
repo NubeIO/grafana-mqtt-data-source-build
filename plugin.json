@@ -1,0 +1,36 @@
+{
+  "type": "datasource",
+  "name": "MQTT Data Source",
+  "id": "nubeio-mqtt-data-source",
+  "metrics": true,
+  "streaming": true,
+  "info": {
+    "description": "Grafana MQTT DataSource for establishing connection between Nodes",
+    "author": {
+      "name": "RaiBnod",
+      "url": "https://nubeio.com"
+    },
+    "keywords": ["MQTT", "DataSource"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/NubeIO/grafana-mqtt-data-source"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/NubeIO/grafana-mqtt-data-source/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2020-08-31"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.5.x",
+    "plugins": []
+  }
+}
